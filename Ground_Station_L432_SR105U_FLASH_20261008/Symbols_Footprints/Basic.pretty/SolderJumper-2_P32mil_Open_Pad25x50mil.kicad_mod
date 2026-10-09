@@ -1,0 +1,97 @@
+(footprint "SolderJumper-2_P32mil_Open_Pad25x50mil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "JP**"
+		(at 0.0889 -1.3208 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3eb82963-2cfc-42bf-b717-ab3686502456")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2_P32mil_Open_Pad25x50mil"
+		(at -0.01005 1.8923 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d56dc3dd-39a0-4ea9-86df-5f4098fb1691")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2090d6b7-29fe-4e09-a09a-14ddd9c257b0")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a02ab06-a6e3-4acd-a8bb-87e395fa9744")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.8001 -0.889)
+		(end 0.8011 0.8862)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0e70f174-c5d7-4a87-b21b-212cdf217333")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.8448 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "625893b5-1683-4edd-946f-6964f41b7e23")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0.4318 90)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "66240abf-d4c2-427e-9c7c-8c3b35fe4c5b")
+	)
+	(pad "2" smd rect
+		(at 0.00005 -0.4191 90)
+		(size 0.635 1.2699)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "369224a3-4cc6-41c2-a401-1864dfb267cb")
+	)
+	(embedded_fonts no)
+)

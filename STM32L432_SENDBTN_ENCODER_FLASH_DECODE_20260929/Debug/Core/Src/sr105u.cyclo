@@ -1,0 +1,3 @@
+../Core/Src/sr105u.c:19:6:ConfigSR105U_Freq	8
+../Core/Src/sr105u.c:111:6:ConfigSR105U_SQ	8
+../Core/Src/sr105u.c:195:6:ConfigSR105U_Vol	8

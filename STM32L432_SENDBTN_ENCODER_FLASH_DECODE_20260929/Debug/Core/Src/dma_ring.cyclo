@@ -1,0 +1,10 @@
+../Core/Src/dma_ring.c:4:6:dma_ring_init	1
+../Core/Src/dma_ring.c:11:5:dma_ring_getc	3
+../Core/Src/dma_ring.c:21:5:dma_ring_putc	3
+../Core/Src/dma_ring.c:34:5:dma_ring_available	2
+../Core/Src/dma_ring.c:41:5:dma_ring_available_linear	2
+../Core/Src/dma_ring.c:49:10:dma_ring_get_w_ptr	1
+../Core/Src/dma_ring.c:53:10:dma_ring_get_r_ptr	1
+../Core/Src/dma_ring.c:57:6:dma_ring_forward_r_ptr	3
+../Core/Src/dma_ring.c:68:6:dma_ring_set_w_ptr	1
+../Core/Src/dma_ring.c:71:6:dma_ring_debug	1

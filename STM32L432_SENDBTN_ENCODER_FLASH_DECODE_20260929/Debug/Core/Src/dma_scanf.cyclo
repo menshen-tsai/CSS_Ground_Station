@@ -1,0 +1,5 @@
+../Core/Src/dma_scanf.c:12:6:dma_scanf_init	1
+../Core/Src/dma_scanf.c:20:5:dma_scanf_getc_blocking	2
+../Core/Src/dma_scanf.c:40:5:dma_getc_nonblocking	2
+../Core/Src/dma_scanf.c:70:5:dma_getc_blocking	2
+../Core/Src/dma_scanf.c:97:5:get_char_with_timeout	4

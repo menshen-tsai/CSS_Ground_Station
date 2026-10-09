@@ -1,0 +1,14 @@
+../Core/Src/menu.c:108:6:menu_main_option_1	15
+../Core/Src/menu.c:138:6:menu_main_option_2	1
+../Core/Src/menu.c:185:6:menu_main_option_3	1
+../Core/Src/menu.c:209:6:menu_exit	1
+../Core/Src/menu.c:217:6:menu_command_option_1	3
+../Core/Src/menu.c:247:6:menu_command_option_2	3
+../Core/Src/menu.c:276:6:menu_command_option_3	3
+../Core/Src/menu.c:307:6:menu_command_option_4	3
+../Core/Src/menu.c:337:6:menu_command_option_5	3
+../Core/Src/menu.c:368:6:menu_command_option_6	3
+../Core/Src/menu.c:399:6:menu_command_option_7	3
+../Core/Src/menu.c:429:6:menu_command_option_8	3
+../Core/Src/menu.c:473:5:run_main_menu_nonblocking	13
+../Core/Src/menu.c:538:5:run_command_menu_nonblocking	13

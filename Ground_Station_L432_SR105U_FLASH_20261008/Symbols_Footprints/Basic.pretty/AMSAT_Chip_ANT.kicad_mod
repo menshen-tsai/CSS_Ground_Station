@@ -1,0 +1,125 @@
+(footprint "AMSAT_Chip_ANT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0254 -6.9878 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "879820b0-5fd8-42db-9e69-3f878af09f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AMSAT_Chip_ANT"
+		(at -0.0254 -5.4878 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfa5d256-87bb-47d3-8256-4b6180888e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9afb1f61-b6e7-4afc-af91-5fe7e3d80a95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "614cfebf-5fd1-4e4b-bae0-a5bce75c8450")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.9944 -2.3368)
+		(end 6.604 2.7432)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07102e74-d9d8-492b-8a89-8be65ff9ca2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.0254 -3.9878 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "380453cb-3e91-4620-bbc1-88e3e8fe8c9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.4944 0.215895)
+		(size 1 4.95301)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8e7c4f75-b479-4409-ab2a-a5d1b7459b0c")
+	)
+	(pad "2" smd rect
+		(at 6.06463 0.202687)
+		(size 1 4.926594)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9f94d731-0656-4788-88b7-37cdcc0b1923")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "237c2fd2-262f-4409-b8a5-2f9acd94b946")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 5.5372 -2.3876) (xy 5.588 2.794) (xy -4.9784 2.794) (xy -4.9784 -2.3876)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

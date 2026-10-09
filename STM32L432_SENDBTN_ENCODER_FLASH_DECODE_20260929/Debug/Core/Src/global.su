@@ -1,0 +1,2 @@
+../Core/Src/global.c:51:6:log_set_level	16	static
+../Core/Src/global.c:55:6:log_message	1848	static

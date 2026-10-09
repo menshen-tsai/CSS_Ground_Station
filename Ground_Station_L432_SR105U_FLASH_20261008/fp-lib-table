@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AMSAT")(type "KiCad")(uri "D:/DATA/KiCAD/Projects/APRS_Ground_Station/Symbols_Footprints/AMSAT_2.0.pretty")(options "")(descr "")(disabled))
+  (lib (name "Basic")(type "KiCad")(uri "${KIPRJMOD}/Symbols_Footprints/Basic.pretty")(options "")(descr "")(disabled))
+  (lib (name "GroundStation")(type "KiCad")(uri "${KIPRJMOD}/Ground_station.pretty")(options "")(descr ""))
+)
