@@ -7367,6 +7367,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_MEC_5E"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5E"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_MEC_5E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -7811,6 +8043,12 @@
 		(uuid "2b41a9a9-b0b1-46b4-bc56-9181ea347b5d")
 	)
 	(junction
+		(at 128.27 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f0b8299-3000-4193-aeb3-201992d54b1a")
+	)
+	(junction
 		(at 91.44 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7839,6 +8077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371e3206-a233-46b7-a8d3-dcb3810929ee")
+	)
+	(junction
+		(at 128.27 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37e17be6-79cb-4bde-bd3b-aa791d8d483b")
 	)
 	(junction
 		(at 40.64 186.69)
@@ -7883,6 +8127,12 @@
 		(uuid "51d0ebc8-6b3c-4ad1-9fd0-39e75b598514")
 	)
 	(junction
+		(at 128.27 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6047ee24-d58d-461b-95be-a91afd4ad278")
+	)
+	(junction
 		(at 312.42 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7899,12 +8149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b169797-05f2-4311-b52c-7ef58d12d721")
-	)
-	(junction
-		(at 128.27 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70ec8744-aac5-41b2-9642-04598c26e60d")
 	)
 	(junction
 		(at 341.63 195.58)
@@ -9496,6 +9740,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 226.06) (xy 128.27 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52be204f-b46a-459c-a5c5-5bef857086cf")
+	)
+	(wire
+		(pts
 			(xy 24.13 140.97) (xy 24.13 144.78)
 		)
 		(stroke
@@ -9656,16 +9910,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 223.52) (xy 128.27 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646f4806-cab8-45a6-86cd-f3c07a9a0d5f")
-	)
-	(wire
-		(pts
 			(xy 228.6 186.69) (xy 228.6 177.8)
 		)
 		(stroke
@@ -9693,6 +9937,16 @@
 			(type default)
 		)
 		(uuid "67e5f50c-e389-44aa-8754-3f08c157e909")
+	)
+	(wire
+		(pts
+			(xy 128.27 213.36) (xy 128.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e74da1-a548-41ae-9352-dfb840ba669a")
 	)
 	(wire
 		(pts
@@ -9853,6 +10107,26 @@
 			(type default)
 		)
 		(uuid "77a906d3-3c0b-49aa-b93c-650beea67e69")
+	)
+	(wire
+		(pts
+			(xy 125.73 215.9) (xy 128.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d2cb3d-0a15-4460-ab7c-245a947f8aa3")
+	)
+	(wire
+		(pts
+			(xy 128.27 226.06) (xy 128.27 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7813df11-1809-4eef-b435-d19e3880c308")
 	)
 	(wire
 		(pts
@@ -12351,7 +12625,7 @@
 			(uuid "0422c948-d075-433d-bd2a-de27d4151f41")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "JP2")
 					(unit 1)
@@ -12436,7 +12710,7 @@
 			(uuid "b6277bf8-9467-434f-bc48-8652b785029e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "RV1")
 					(unit 1)
@@ -12822,7 +13096,7 @@
 			(uuid "67e4a030-794e-4022-b491-2a6981e84a00")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J1")
 					(unit 1)
@@ -12943,7 +13217,7 @@
 			(uuid "d0f23f2f-1a14-4c86-96c6-3f8a25e2acb3")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J9")
 					(unit 1)
@@ -13022,7 +13296,7 @@
 			(uuid "2b993540-d468-4a24-b256-db7e9c3d6105")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP2")
 					(unit 1)
@@ -13100,7 +13374,7 @@
 			(uuid "ee6cc540-45a6-487c-ad43-8fdab3c38e95")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR020")
 					(unit 1)
@@ -13180,7 +13454,7 @@
 			(uuid "657c22f8-d69a-426b-b3c5-6ce5535fc129")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C2")
 					(unit 1)
@@ -13262,7 +13536,7 @@
 			(uuid "ebb0d1a9-beb2-49fe-9073-1df6e6880648")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C4")
 					(unit 1)
@@ -13341,7 +13615,7 @@
 			(uuid "7a516949-bd65-439f-b8ca-74020a97a51f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP1")
 					(unit 1)
@@ -13419,7 +13693,7 @@
 			(uuid "9ce07476-5fa7-49e8-b6f3-b8fbb4b1fe37")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP3")
 					(unit 1)
@@ -13497,7 +13771,7 @@
 			(uuid "86e160cc-e155-40e4-a1eb-78ab4abfa601")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR011")
 					(unit 1)
@@ -13577,91 +13851,9 @@
 			(uuid "1bdba494-e253-4dcb-9238-0051a8286584")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 128.27 218.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a0af545-b63a-420e-882a-628d41fcec76")
-		(property "Reference" "SW3"
-			(at 129.54 217.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 129.54 219.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 123.19 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "725b2c09-0cb9-4eec-affa-82d3ac625df7")
-		)
-		(pin "2"
-			(uuid "87a93f92-fc43-417c-94b0-4a2b3aa75758")
-		)
-		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
-				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13738,7 +13930,7 @@
 			(uuid "145cd603-108b-4d1b-b444-b08786bb478c")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR018")
 					(unit 1)
@@ -13817,7 +14009,7 @@
 			(uuid "23b68a40-4a34-4c38-b442-8e7e491c156f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "H2")
 					(unit 1)
@@ -13895,7 +14087,7 @@
 			(uuid "41b75f3c-7ab9-478c-ae19-4af2d8281736")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR015")
 					(unit 1)
@@ -13975,7 +14167,7 @@
 			(uuid "346fa800-7e58-4d18-97cb-570ea68b5ced")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR016")
 					(unit 1)
@@ -14065,7 +14257,7 @@
 			(uuid "12b8ca5a-100b-4e24-95f1-63bd67dd8302")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D5")
 					(unit 1)
@@ -14145,7 +14337,7 @@
 			(uuid "89464520-45bb-47d0-9eb7-44772f562fad")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR014")
 					(unit 1)
@@ -14224,7 +14416,7 @@
 			(uuid "f7288ac2-579e-4ef1-b8a6-e4629f7e3961")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "H1")
 					(unit 1)
@@ -14306,7 +14498,7 @@
 			(uuid "5539fec5-58f0-43ef-8cf9-0e6621602c0c")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R3")
 					(unit 1)
@@ -14385,7 +14577,7 @@
 			(uuid "7bed6784-c3cc-4edf-aae6-19365448ec9b")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR028")
 					(unit 1)
@@ -14464,7 +14656,7 @@
 			(uuid "ad373bda-e88e-4905-ab62-f985b1753b3d")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D1")
 					(unit 1)
@@ -14543,7 +14735,7 @@
 			(uuid "643d6695-3aba-4c29-bcf1-5514696e3461")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R11")
 					(unit 1)
@@ -14622,7 +14814,7 @@
 			(uuid "a9a429d1-1cc9-48d6-ba74-fe561675a92e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR022")
 					(unit 1)
@@ -14704,7 +14896,7 @@
 			(uuid "8262c2c5-8eaf-4404-aef3-c960a0873330")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "SW2")
 					(unit 1)
@@ -14785,7 +14977,7 @@
 			(uuid "1576ad87-fd85-4b1a-a8a3-cc714e61b5dd")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R12")
 					(unit 1)
@@ -14864,7 +15056,7 @@
 			(uuid "297c1f57-691c-4db7-bb9d-a7be44ecf7e7")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR017")
 					(unit 1)
@@ -14954,7 +15146,7 @@
 			(uuid "a4cc0074-b256-4b49-8249-8e053a93194e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D2")
 					(unit 1)
@@ -15032,7 +15224,7 @@
 			(uuid "1787b18e-5859-4914-bc6d-33fddd590cef")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR02")
 					(unit 1)
@@ -15114,7 +15306,7 @@
 			(uuid "01a218f1-b080-40e3-9ab5-0d6999d1bdec")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "AE1")
 					(unit 1)
@@ -15192,7 +15384,7 @@
 			(uuid "fd3a44cb-ba6d-4d63-bd68-01343fec9ed5")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP8")
 					(unit 1)
@@ -15271,7 +15463,7 @@
 			(uuid "58fa2a22-b208-4fc8-a031-b8910d5a0848")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "H4")
 					(unit 1)
@@ -15359,7 +15551,7 @@
 			(uuid "4def10a6-ac26-4533-b7d9-e89bd46633d0")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "RN1")
 					(unit 1)
@@ -15475,7 +15667,7 @@
 			(uuid "47b5d8bf-6745-48e3-8fb4-ca118fccf017")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U3")
 					(unit 2)
@@ -15553,7 +15745,7 @@
 			(uuid "a8f01b22-ae13-4808-b35c-e61ef7aadea9")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR024")
 					(unit 1)
@@ -15631,7 +15823,7 @@
 			(uuid "4965727b-6b4f-4503-886d-010e625e4ca3")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR05")
 					(unit 1)
@@ -15711,7 +15903,7 @@
 			(uuid "c1e4d575-f66c-4a8c-a600-2d9f1ca1b531")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R2")
 					(unit 1)
@@ -15827,7 +16019,7 @@
 			(uuid "83019453-5272-4002-bba1-e733c58f8b43")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U3")
 					(unit 4)
@@ -15945,7 +16137,7 @@
 			(uuid "ef1790df-0daa-4d1f-82a0-c5b609ed7598")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U1")
 					(unit 1)
@@ -16023,7 +16215,7 @@
 			(uuid "f465f020-a03f-4ffa-b3ec-1d2543c676eb")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR021")
 					(unit 1)
@@ -16104,7 +16296,7 @@
 			(uuid "00903ae6-002e-4b2d-b6aa-d85b18a411de")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R15")
 					(unit 1)
@@ -16224,7 +16416,7 @@
 			(uuid "a50ff6d9-7fa5-4829-9803-acb3f95d275a")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J8")
 					(unit 1)
@@ -16336,7 +16528,7 @@
 			(uuid "ab5ff401-823e-4fa9-9294-dacd9fc1b4ba")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J15")
 					(unit 1)
@@ -16417,7 +16609,7 @@
 			(uuid "b92cb22c-b78a-4def-82b7-393c85d93878")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C8")
 					(unit 1)
@@ -16498,7 +16690,7 @@
 			(uuid "4df48d99-24a9-4444-bb30-7ec6bdd0ef56")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R16")
 					(unit 1)
@@ -16614,7 +16806,7 @@
 			(uuid "47b5d8bf-6745-48e3-8fb4-ca118fccf018")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U3")
 					(unit 1)
@@ -16695,7 +16887,7 @@
 			(uuid "8540a849-4342-49d9-b702-c587320f7968")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R14")
 					(unit 1)
@@ -16777,7 +16969,7 @@
 			(uuid "530ea250-f201-4bc5-a61d-b11a9314297f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R1")
 					(unit 1)
@@ -16858,7 +17050,7 @@
 			(uuid "10b8f6a6-9ecc-4ddc-b96e-bb1716559ea8")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C6")
 					(unit 1)
@@ -16936,7 +17128,7 @@
 			(uuid "186bfd26-2984-49bf-a64e-71b0158436dd")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR04")
 					(unit 1)
@@ -17016,7 +17208,7 @@
 			(uuid "a333a7f6-3f8c-44d2-8735-0be6d0dfd08e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R9")
 					(unit 1)
@@ -17094,7 +17286,7 @@
 			(uuid "493025fa-df5a-4b6d-a5cf-05aad825a27c")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP9")
 					(unit 1)
@@ -17172,7 +17364,7 @@
 			(uuid "e1cb5dec-e8d9-4f01-94b6-913dbd237d2f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "TP7")
 					(unit 1)
@@ -17284,7 +17476,7 @@
 			(uuid "31208dcc-3221-44a5-b18b-1ef2f3408e6f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J13")
 					(unit 1)
@@ -17364,7 +17556,7 @@
 			(uuid "a4d8808b-39ca-4a74-99a2-8bcc429eb6ce")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J7")
 					(unit 1)
@@ -17442,7 +17634,7 @@
 			(uuid "b3f88f2c-db7c-4533-a1bf-cf30a591f0b3")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR012")
 					(unit 1)
@@ -17523,7 +17715,7 @@
 			(uuid "5fb5fef1-5ba7-412a-ae82-4ed561d515dc")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R17")
 					(unit 1)
@@ -17602,7 +17794,7 @@
 			(uuid "f1e8ce43-418e-43a6-809c-3287c944e610")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C9")
 					(unit 1)
@@ -17681,7 +17873,7 @@
 			(uuid "9bd0afdb-441d-44d0-9306-2b7d368d745c")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR019")
 					(unit 1)
@@ -17846,7 +18038,7 @@
 			(uuid "bc9a1181-44cd-40c1-bb91-4adc803a2222")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U2")
 					(unit 1)
@@ -17925,7 +18117,7 @@
 			(uuid "a66df8cf-2890-4e6a-92c3-df8ec6c85dea")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "H3")
 					(unit 1)
@@ -18003,9 +18195,97 @@
 			(uuid "cfebdf00-aa2d-451e-a7e0-66a4ce1cc766")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5E")
+		(at 128.27 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd14e50-4fd5-4753-9356-d5119e2f5638")
+		(property "Reference" "SW5"
+			(at 129.54 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SEND"
+			(at 129.54 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "GroundStation:SW_PUSH-12mm"
+			(at 120.65 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+			(at 120.65 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 128.27 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7478c3b0-a051-4ce1-82a1-4fd693cb0ab6")
+		)
+		(pin "4"
+			(uuid "cb2f3d1d-2027-4a41-81d6-5b3e68ab86fa")
+		)
+		(pin "3"
+			(uuid "afd24b9d-bb1c-4f26-b690-ebf03981bf41")
+		)
+		(pin "1"
+			(uuid "c031808b-24fc-4699-8099-639cf8ba03eb")
+		)
+		(instances
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
+				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -18081,7 +18361,7 @@
 			(uuid "254deb06-ce8d-420c-b7f2-dc9fca31ab1d")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR01")
 					(unit 1)
@@ -18197,7 +18477,7 @@
 			(uuid "14ebff8b-5882-4753-a15d-d150145178e4")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U3")
 					(unit 3)
@@ -18276,7 +18556,7 @@
 			(uuid "523fae0c-043c-4019-b77c-78b0132db197")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D6")
 					(unit 1)
@@ -18355,7 +18635,7 @@
 			(uuid "4d37a9a3-67a2-4db6-969b-88c83a6f20ba")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR09")
 					(unit 1)
@@ -18437,7 +18717,7 @@
 			(uuid "4d815936-9732-4b4d-8fb6-c3da4683fbe0")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C10")
 					(unit 1)
@@ -18550,7 +18830,7 @@
 			(uuid "0673f5e9-2e9b-4241-82b3-b72a6d0d6c20")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J10")
 					(unit 1)
@@ -18631,7 +18911,7 @@
 			(uuid "36c4bb12-0701-4fd8-9144-67a18f617041")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R13")
 					(unit 1)
@@ -18711,7 +18991,7 @@
 			(uuid "275e40e0-e367-4c80-abfb-c37f2ed1979e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J12")
 					(unit 1)
@@ -18791,7 +19071,7 @@
 			(uuid "64abc256-5ac1-4bff-b719-119e08b900f3")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R8")
 					(unit 1)
@@ -18891,7 +19171,7 @@
 			(uuid "cecc84b0-d462-4474-978d-1d0885c0ea49")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U4")
 					(unit 1)
@@ -19008,7 +19288,7 @@
 			(uuid "d38ea0e0-9f09-4897-b4ef-a246552cdbe8")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "U3")
 					(unit 5)
@@ -19090,7 +19370,7 @@
 			(uuid "a10799c8-eda9-4620-a6c0-b2f555ce485e")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R5")
 					(unit 1)
@@ -19171,7 +19451,7 @@
 			(uuid "962bdb2b-0be2-4c4a-9b5e-b5ed2f30393a")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R6")
 					(unit 1)
@@ -19181,7 +19461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 226.06 0)
+		(at 128.27 231.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19193,7 +19473,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6d2bfe0-876f-4f67-8eb3-2c5d30077541")
 		(property "Reference" "#PWR06"
-			(at 128.27 232.41 0)
+			(at 128.27 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19204,7 +19484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 227.3299 0)
+			(at 130.81 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19215,7 +19495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 226.06 0)
+			(at 128.27 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19226,7 +19506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 226.06 0)
+			(at 128.27 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19237,7 +19517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 226.06 0)
+			(at 128.27 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19251,7 +19531,7 @@
 			(uuid "b7fcfda3-bd21-494e-9681-0488a2530c87")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR06")
 					(unit 1)
@@ -19333,7 +19613,7 @@
 			(uuid "05a1ef9e-c867-40e1-8a84-ab342e8e2322")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R20")
 					(unit 1)
@@ -19426,7 +19706,7 @@
 			(uuid "8f44f6dc-f873-4475-b8a5-dea39583d673")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D4")
 					(unit 1)
@@ -19508,7 +19788,7 @@
 			(uuid "8310deaa-a891-4082-b26c-06c38815d0fc")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C1")
 					(unit 1)
@@ -19588,7 +19868,7 @@
 			(uuid "ddc4e513-49b0-41e2-9cd9-6a5607840e6f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "C7")
 					(unit 1)
@@ -19666,7 +19946,7 @@
 			(uuid "a6b6ace7-1451-47db-87d7-ebb967b5b06f")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR029")
 					(unit 1)
@@ -19744,7 +20024,7 @@
 			(uuid "4e0a2f18-7b7f-47cf-ad3d-a47f525cc02c")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR08")
 					(unit 1)
@@ -19823,7 +20103,7 @@
 			(uuid "d2c42a53-5384-4abf-8612-93cd2f1d9a49")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR010")
 					(unit 1)
@@ -19901,7 +20181,7 @@
 			(uuid "5b1d56f4-b4c3-48bc-a218-2c187742b644")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR03")
 					(unit 1)
@@ -19980,7 +20260,7 @@
 			(uuid "6c69e873-cce3-43ca-9bf3-71316967b021")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR07")
 					(unit 1)
@@ -20058,7 +20338,7 @@
 			(uuid "04f2e881-de78-40dd-b117-313c53d99281")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "#PWR025")
 					(unit 1)
@@ -20171,7 +20451,7 @@
 			(uuid "9406c219-1fd1-4d3a-9c22-5a0e3a1e4c98")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "J11")
 					(unit 1)
@@ -20250,7 +20530,7 @@
 			(uuid "b9179f77-9a39-40f0-8dfd-4bfaa19ccd75")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R4")
 					(unit 1)
@@ -20332,7 +20612,7 @@
 			(uuid "ce7929de-e3a1-416a-83cf-0c9803cbeec4")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "SW1")
 					(unit 1)
@@ -20421,7 +20701,7 @@
 			(uuid "615accf3-09ea-4129-9869-e5cedb38c932")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "SW4")
 					(unit 1)
@@ -20501,7 +20781,7 @@
 			(uuid "1e9ae40f-691a-43fb-9296-e93707668372")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R10")
 					(unit 1)
@@ -20582,7 +20862,7 @@
 			(uuid "09f27b42-ca3c-4f05-a0a2-8afdd1ff47b2")
 		)
 		(instances
-			(project "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+			(project "Ground_Station_L432_SR105U_FLASH_20261008"
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "R7")
 					(unit 1)

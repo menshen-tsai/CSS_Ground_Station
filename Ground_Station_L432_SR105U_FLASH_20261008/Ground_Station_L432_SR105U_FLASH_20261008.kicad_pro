@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Ground_Station_L432_SR105U_FLASH_USB_20260808.kicad_pro",
+    "filename": "Ground_Station_L432_SR105U_FLASH_20261008.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -700,18 +700,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Ground_Station_L432_SR105U_FLASH_USB_20260808.kicad_sch",
-        "name": "Ground_Station_L432_SR105U_FLASH_USB_20260808",
+        "filename": "Ground_Station_L432_SR105U_FLASH_20261008.kicad_sch",
+        "name": "Ground_Station_L432_SR105U_FLASH_20261008",
         "uuid": "288fbf00-faaf-4744-be5e-5965d0ade413"
       }
     ],
-    "used_designators": "SW4,#PWR22,TP8-9,RN1",
+    "used_designators": "SW4-5,#PWR22,RN1,TP8-9",
     "variants": []
   },
   "sheets": [
     [
       "288fbf00-faaf-4744-be5e-5965d0ade413",
-      "Ground_Station_L432_SR105U_FLASH_USB_20260808"
+      "Ground_Station_L432_SR105U_FLASH_20261008"
     ]
   ],
   "text_variables": {},
