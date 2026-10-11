@@ -1,1 +1,12 @@
+# KiCad Backups and History
+/*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
 .history/
+*_autosave*
+
+# KiCad Local Settings & Locks
+/sym-lib-table.path
+/fp-lib-table.path
+*.lck
