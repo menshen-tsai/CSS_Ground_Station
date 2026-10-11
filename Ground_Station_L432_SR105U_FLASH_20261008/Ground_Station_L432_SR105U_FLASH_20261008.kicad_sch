@@ -20561,7 +20561,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 72.39 218.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
