@@ -53,8 +53,8 @@ Build System: Make / Linker Scripts
 Target Platform: STM32L432 Series
 
 ## APRS Decoding
-The APRS decoding code was based on STM32_APRS by [dragonlock2](https://github.com/dragonlock2/STM32_APRS.git)
-The digital filter code is tuned to fulfill the audio signal (AF_OUT) comes from UHF transceiver.
+The APRS decoding code was based on STM32_APRS by [dragonlock2](https://github.com/dragonlock2/STM32_APRS.git).
+The digital filter code is tuned to fulfill the audio signal (AF_OUT) comes from the UHF transceiver (SR105U).
 
 ## 👤 Author
 menshen-tsai - GitHub Profile
