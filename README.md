@@ -47,8 +47,6 @@ cd CSS_Ground_Station
 
 
 ## Image and Video
-![PCB with populated compoments](Images/APRS_GroundStation_20261010_small.jpg)
-
 <img src="Images/APRS_GroundStation_20261010_small.jpg" alt="PCB with populated components" width="350">
 
 [📥 Download APRS Decode Video (MP4)](Images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20%20132000.mp4)
