@@ -49,9 +49,9 @@ cd CSS_Ground_Station
 ## Image and Video
 ![PCB with populated compoments](Images/APRS_GroundStation_20261010_small.jpg)
 
-<video src="Images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20 132000.mp4" controls width="100%">
-APRS decoded by Direwolf and the GroundStation.
-</video>
+[![APRS Decoding Demo](Images/APRS_GroundStation_20261010_small.jpg)](Images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20%20132000.mp4)
+
+*Click the image above to watch the APRS decode video.*
 
 ## 📜 Tech Stack
 Primary Language: C (97%+)
