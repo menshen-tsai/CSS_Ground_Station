@@ -47,9 +47,9 @@ cd CSS_Ground_Station
 
 
 ## Image and Video
-![PCB with populated compoments](Images/APRS_GroundStation_20261010.jpg)
+![PCB with populated compoments](Images/APRS_GroundStation_20261010_small.jpg)
 
-<video src="images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20 132000.mp4" controls width="100%">
+<video src="Images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20 132000.mp4" controls width="100%">
 APRS decoded by Direwolf and the GroundStation.
 </video>
 
