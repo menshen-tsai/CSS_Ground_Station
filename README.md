@@ -45,6 +45,14 @@ cd CSS_Ground_Station
 4. Build the project (Ctrl + B).
 5. Connect your STM32 board via ST-LINK and click Run / Debug.
 
+
+## Image and Video
+![PCB with populated compoments](images/APRS_GroundStation_20261010.jpg)
+
+<video src="images/APRS_Decode_DIREWOLF_STM32L432KC_2026-10-20 132000.mp4" controls width="100%">
+APRS decoded by Direwolf and the GroundStation.
+</video>
+
 ## 📜 Tech Stack
 Primary Language: C (97%+)
 
